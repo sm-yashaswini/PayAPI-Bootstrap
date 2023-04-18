@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link rel="stylesheet" href="./styleboot.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@200&display=swap" rel="stylesheet">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+  <script src="payapi.js"></script>
+    <title>PayAPI</title>
+  </head>
+  
+  <body class="page">
+    <div class="wrapper">
+    <div class="container">
+      <!-- <div class="navbar">
+        <div class="menu">
+          <picture>
+           <a href="index.html"><img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+          </picture>
+        </div>
+        <div class="navigation">
+          <nav class="flexnav">
+            <a href="#" class="togglenav"><img src="assets/shared/mobile/menu.svg" alt="menu"></a> 
+            <ul>
+              <div class="closingbutton">
+                <img src="assets/shared/mobile/close.svg" alt="closebutton">
+              </div>
+              <hr class="line">
+              <li><a href="#">Pricing</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          </div>
+          <button class="schedule">Schedule a Demo</button>
+      </div> -->
+    </div>
+
+    <!-- navbar using bootstrap  -->
+
+    <nav class="navbar navbar-expand-sm navbar-light container-xl">
+      <a class="navbar-brand" href="index.html"><img src="assets/shared/desktop/logo.svg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0"> -->
+          <button class="schedule-button">Schedule a demo</button>
+        <!-- </form> -->
+      </div>
+    </nav>
+
+    <!-- Plans  -->
+    <!-- <div class="container">
+      <div class="pricehead">
+        <h1>Pricing</h1>
+      </div>
+    </div>  -->
+
+    <!-- Plans with bootstrap  -->
+
+    <div class="container text-md-start">
+      <div class="pricehead">
+        <h1 class="price-heading">Pricing</h1>
+      </div>
+    </div> 
+          <!-- Different Plans  -->
+      <!-- <div class="container">
+      <div class="plans">
+        <div class="diffplans">
+          
+          <h4 class="subhead">Free Plan</h4>
+          <p class="desc">Build and test using our core set of products with up to 100 API requests</p>
+          <h1>$0.00</h1>
+          
+          <hr>
+          
+          <div class="services">
+            <ul>
+              <li><img src="./assets/shared/desktop/icon-check.svg" alt=""> Transactions</li> 
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Auth</li>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Identity</li>
+              <li style="color: #6c8294; margin-left: 13px;"> Investments</li>
+              <li style="color: #6c8294; margin-left: 13px;"> Assets</li>
+              <li style="color: #6c8294; margin-left: 13px;"> Liabilities</li>
+              <li style="color: #6c8294; margin-left: 13px;"> Income</li>
+            </ul>
+          </div>
+          
+          <hr>
+          <button class="servbutton"> Request Access</button>
+          
+        </div>
+        
+        <div class="diffplans">
+          <h4 class="subhead">Basic Plan</h4>
+          <p class="desc">Launch your project with unlimited requests and no contractual minimums</p>
+          <h1>$249.00</h1>
+          
+          <hr>
+          
+          <div class="services">
+            <ul>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt=""> Transactions</li> 
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Auth</li>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Identity</li>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt=""> Investments</li>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt=""> Assets</li>
+              <li style="color: #6c8294; margin-left: 13px;"> Liabilities</li>
+              <li style="color: #6c8294; margin-left: 13px;"> Income</li>
+            </ul>
+          </div>
+          
+          <hr>
+          <button class="servbutton"> Request Access</button>
+        </div>
+        
+        <div class="diffplans">
+          
+          <h4 class="subhead">Premium Plan</h4> 
+          <p class="desc"> Get tailored solutions, volume pricing, and dedicated support for your team</p>
+          <h1> $499.00</h1>
+          
+          <hr>
+          
+          <div class="services">
+            <ul>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt=""> Transactions</li> 
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Auth</li>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Identity</li>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt=""> Investments</li>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt=""> Assets</li>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Liabilities</li>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Income</li>
+            </ul>
+          </div>
+          
+          <hr>
+          <button class="servbutton"> Request Access</button>
+          
+        </div>
+      </div>
+    </div>  -->
+
+    <!-- Plans with bootstrap  -->
+    <div class="container-xl">
+      <div class="row">
+        <div class="col-md-4">
+          <h4 class="subhead">Free Plan</h4>
+          <p class="desc fw-bold">Build and test using our core set of products with up to 100 API requests</p>
+          <h1 class="price">$0.00</h1>
+      
+      <hr>
+      
+      <div class="services">
+        <ul>
+          <li><img src="./assets/shared/desktop/icon-check.svg" alt=""> Transactions</li> 
+          <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Auth</li>
+          <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Identity</li>
+          <li style="color: #6c8294; margin-left: 13px;"> Investments</li>
+          <li style="color: #6c8294; margin-left: 13px;"> Assets</li>
+          <li style="color: #6c8294; margin-left: 13px;"> Liabilities</li>
+          <li style="color: #6c8294; margin-left: 13px;"> Income</li>
+        </ul>
+      </div>
+      
+      <hr>
+      <button class="servbutton"> Request Access</button>
+        </div>
+
+        <div class="col-md-4 diffplans">
+          <h4 class="subhead">Basic Plan</h4>
+      <p class="desc">Launch your project with unlimited requests and no contractual minimums</p>
+      <h1 class="price">$249.00</h1>
+      
+      <hr>
+      
+      <div class="services">
+        <ul>
+          <li> <img src="./assets/shared/desktop/icon-check.svg" alt=""> Transactions</li> 
+          <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Auth</li>
+          <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Identity</li>
+          <li> <img src="./assets/shared/desktop/icon-check.svg" alt=""> Investments</li>
+          <li> <img src="./assets/shared/desktop/icon-check.svg" alt=""> Assets</li>
+          <li style="color: #6c8294; margin-left: 13px;"> Liabilities</li>
+          <li style="color: #6c8294; margin-left: 13px;"> Income</li>
+        </ul>
+      </div>
+      
+      <hr>
+      <button class="servbutton"> Request Access</button>
+        </div>
+
+        <div class="col">
+          <h4 class="subhead">Premium Plan</h4> 
+          <p class="desc"> Get tailored solutions, volume pricing, and dedicated support for your team</p>
+          <h1 class="price"> $499.00</h1>
+          
+          <hr>
+          
+          <div class="services">
+            <ul>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt=""> Transactions</li> 
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Auth</li>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Identity</li>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt=""> Investments</li>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt=""> Assets</li>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Liabilities</li>
+              <li> <img src="./assets/shared/desktop/icon-check.svg" alt="">Income</li>
+            </ul>
+          </div>
+          
+          <hr>
+          <button class="servbutton"> Request Access</button>
+        </div>
+      </div>
+    </div>
+
+      <!-- Ready to start -->
+    <!-- <div class="container">
+      <div class="rts">
+        
+        <div class="ready">
+          <p>Ready to Start?</p>
+        </div>
+        
+        <div class="email">
+          <div class="inputemail">
+            <input type="email" class="emailf" name="email" placeholder="Enter email address">
+          </div>
+          <div class="emailbutton">
+            <button class="schedule" id="sched">Schedule a Demo</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>   -->
+
+    <!-- Ready to start using bootstrap  -->
+    <div class="container-xl">
+      <div class="row">
+          <div class="col-md-8">
+            <h1 class="rts-head">Ready to Start?</h1>
+          </div>
+      
+          <div class="col">
+            <div class="emailbutton d-flex flex-md-row flex-column justify-content-sm-center justify-content-md-left">
+              <input type="email" class="email" name="email" placeholder="Enter email address">
+              <button class="schedule-button" id="sched">Schedule a Demo</button>
+            </div>
+          </div>
+          </div>
+      </div>
+      <!-- Footer  -->
+      <div style="width: 100%; background-color: #1b262f;"> 
+      <div class="footer">
+        <div class="container">
+        <div class="content">
+        <div class="left">
+          <img src="./assets/home/desktop/logopayapi.png" alt="logo" class="footer-logo">
+          <ul>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      
+        <div class="container">
+        <div class="content">
+        <div class="right">
+          <div class="socialmedia">
+            <img src="./assets/shared/desktop/facebook.svg" alt="fb" class="socialimg">
+            <img src="./assets/shared/desktop/twitter.svg" alt="fb" class="socialimg">
+            <img src="./assets/shared/desktop/linkedin.svg" alt="fb" class="socialimg">
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    </div>
+    <!-- JS  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+    $(function(){
+      $('.togglenav').on('click',function(){
+        $('.flexnav ul').toggleClass('open');
+      });
+    });
+  </script>
+    
+  </body>
+  
+  </html>

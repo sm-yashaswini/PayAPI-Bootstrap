@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+  <link rel="stylesheet" href="./styleboot.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@200&display=swap" rel="stylesheet">
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+<script src="payapi.js"></script>
+  <title>PayAPI</title>
+</head>
+  </head>
+
+  <body class="page">
+    <div class="wrapper">
+      <!-- <div class="container">
+        <div class="navbar">
+          <div class="menu">
+            <picture>
+             <a href="index.html"><img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+            </picture>
+          </div>
+          <div class="navigation">
+            <nav class="flexnav">
+              <a href="#" class="togglenav"><img src="assets/shared/mobile/menu.svg" alt="menu"></a> 
+              <ul>
+                <div class="closingbutton">
+                   <img src="assets/shared/mobile/close.svg" alt="closebutton">
+                </div>
+                <hr class="line">
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            </div>
+            <button class="schedule">Schedule a Demo</button>
+        </div>
+      </div> -->
+
+      <!-- Navbar using bootstrap  -->
+      <nav class="navbar navbar-expand-sm navbar-light container-xl">
+        <a class="navbar-brand" href="index.html"><img src="assets/shared/desktop/logo.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0"> -->
+            <button class="schedule-button">Schedule a demo</button>
+          <!-- </form> -->
+        </div>
+      </nav>
+
+      <!-- First heading  -->
+  <!-- <div class="container">
+    <div class="work-heading">
+      <h1> We empower innovators by delivering access to the financial system</h1>
+    </div>
+  </div> -->
+
+  <!-- First heading using bootstrap  -->
+  <div class="container-xl">
+    <div class="work-heading text-md-left text-center">
+      <h1> We empower innovators by delivering access to the financial system</h1>
+    </div>
+  </div>
+
+  <!-- Goals  -->
+  <!-- <div class="container">
+    <div class="goals">
+
+      <h4 class="subhead">Our Vision</h4>
+        <p class="desc"> Our main goal is to build beautiful consumer experiences along with developer-friendly 
+            infrastructure. The result is an intelligent tool that gives everyone the ability to create 
+            amazing products that solve big problems. We are deeply focused on democratizing financial 
+            services through technology.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="goals">
+
+     <h4 class="subhead"> Our Business</h4>
+      
+     <p class="desc"> At the core of our platform is the technical infrastructure APIs that connect consumers. 
+      Our innovative product provides key insights for businesses and individuals, as well as 
+      robust reporting for traditional financial institutions and developers.</p>
+      
+    </div>
+  </div> -->
+
+  <!-- Goals using bootstrap  -->
+<div class="container-xl">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2 class="subhead-h4">Our Vision</h2>
+    </div>
+
+    <div class="col para">
+      <p>Our main goal is to build beautiful consumer experiences along with developer-friendly infrastructure. The result is an intelligent tool that gives everyone the ability to create amazing products that solve big problems. We are deeply focused on democratizing financial services through technology.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <h2 class="subhead-h4">Our Business</h2>
+    </div>
+
+    <div class="col para">
+      <p>At the core of our platform is the technical infrastructure APIs that connect consumers. Our innovative product provides key insights for business and individuals, as well as robust reporting for traditional financial institutions and developers. </p>
+    </div>
+  </div>
+</div>
+
+  <!-- Image  -->
+    <!-- <div class="teamimage">
+      <img src="./assets/about/desktop/image-team-members.jpg" alt="team">
+    </div> -->
+
+    <!-- Image using bootstrap  -->
+    <div class="teamimage text-center">
+      <img src="./assets/about/desktop/image-team-members.jpg" alt="team" class="img-fluid">
+    </div>
+
+<!-- Info  -->
+  <!-- <div class="info">
+    <div class="infopart">
+        <hr>
+        <p class="descrip">Team Members</p> 
+        <h3>300+</h3>
+        <hr class="linehr">
+      </div>
+
+    <div class="infopart">
+        <hr class="linehr">
+        <p class="descrip">Offices in the US</p> 
+        <h3>3</h3>
+        <hr class="linehr">
+    </div>
+      
+    <div class="infopart">
+        <hr class="linehr">
+        <p class="descrip">Offices in the US</p> 
+        <h3>3</h3>
+        <hr class="linehr">
+    </div>
+      
+  </div> -->
+
+  <!-- Info with bootstrap  -->
+  <div class="container-xl">
+<div class="row">
+  <div class="col-sm-4">
+    <hr>
+      <p class="descrip cen">Team Members</p> 
+      <h3 class="cen">300+</h3>
+      <hr class="linehr">
+  </div>
+
+  <div class="col-sm-4">
+      <hr class="linehr">
+      <p class="descrip cen">Offices in the US</p> 
+      <h3 class="cen">3</h3>
+      <hr class="linehr">
+  </div>
+    
+  <div class="col-sm-4">
+      <hr class="linehr">
+      <p class="descrip cen">Offices in the US</p> 
+      <h3 class="cen">3</h3>
+      <hr class="linehr">
+  </div>
+</div>
+</div>
+<!-- Goals  -->
+<!-- <div class="container">
+  <div class="goals">
+      <h4 class="subhead">The Culture</h4>
+      
+     <p class="desc"> We strongly believe there's always an opportunity to learn from each other outside of 
+      day-to-day work, whether it's company-wide offsites, internal hackathons, or co-worker meetups. 
+      We always value cross-team collaboration and diversity of thought, no matter the job title.</p>
+      
+    </div>
+  </div>
+  <div class="container">
+    <div class="goals">
+     <h4 class="subhead">The People</h4>
+      
+     <p class="desc"> We're all passionate about building a more efficient and inclusive financial infrastructure 
+      together. At PayAPI, we have diverse backgrounds and skills.</p>
+      
+    </div>
+  </div>   -->
+
+  <!-- Goals using bootstrap  -->
+  <div class="container-xl">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2 class="subhead-h4">The Culture</h2>
+      </div>
+  
+      <div class="col para">
+        <p>Our main goal is to build beautiful consumer experiences along with developer-friendly infrastructure. The result is an intelligent tool that gives everyone the ability to create amazing products that solve big problems. We are deeply focused on democratizing financial services through technology.</p>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-sm-4">
+        <h2 class="subhead-h4">The People</h2>
+      </div>
+  
+      <div class="col para">
+        <p>At the core of our platform is the technical infrastructure APIs that connect consumers. Our innovative product provides key insights for business and individuals, as well as robust reporting for traditional financial institutions and developers. </p>
+      </div>
+    </div>
+  </div>
+
+    <!-- Ready to start  -->
+  <!-- <div class="container">
+    <div class="rts">
+
+      <div class="ready">
+        <p>Ready to Start?</p>
+      </div>
+    
+    <div class="email">
+        <div class="inputemail">
+          <input type="email" class="emailf" name="email" placeholder="Enter email address">
+        </div>
+        <div class="emailbutton">
+          <button class="schedule" id="sched">Schedule a Demo</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Ready to start using bootstrap  -->
+<div class="container-xl">
+  <div class="row">
+    <div class="col-md-4">
+      <h1 class="rts-head">Ready to Start?</h1>
+    </div>
+
+    <div class="col">
+      <div class="emailbutton d-flex flex-md-row flex-column justify-content-sm-center justify-content-md-left">
+        <input type="email" class="email" name="email" placeholder="Enter email address">
+        <button class="schedule-button" id="sched">Schedule a Demo</button>
+      </div>
+    </div>
+  </div>
+  </div>
+    <!-- Footer  -->
+
+<!-- <div class="footer">
+  <div class="container">
+    <div class="content">
+      <div class="left">
+        <img src="./assets/home/desktop/logopayapi.png" alt="logo">
+        <ul>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="content">
+      <div class="right">
+        <div class="socialmedia">
+          <img src="./assets/shared/desktop/facebook.svg" alt="fb" class="socialimg">
+          <img src="./assets/shared/desktop/twitter.svg" alt="fb" class="socialimg">
+          <img src="./assets/shared/desktop/linkedin.svg" alt="fb" class="socialimg">
+        </div>
+      </div>
+    </div>
+  </div>
+    </div> -->
+
+    <!-- Footer using bootstrap  -->
+    <div style="width: 100%; background-color: #1b262f;">
+      <div class="container">
+      <div class="footer">
+        <div class="container">
+          <div class="content">
+            <div class="left">
+              <img src="./assets/home/desktop/logopayapi.png" alt="logo" class="footer-logo">
+              <ul>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+        <div class="container">
+          <div class="content">
+            <div class="right">
+              <div class="socialmedia">
+                <img src="./assets/shared/desktop/facebook.svg" alt="fb" class="socialimg">
+                <img src="./assets/shared/desktop/twitter.svg" alt="fb" class="socialimg">
+                <img src="./assets/shared/desktop/linkedin.svg" alt="fb" class="socialimg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+  <footer>
+    
+</div>
+
+    <!-- JS  -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+    $(function(){
+      $('.togglenav').on('click',function(){
+        $('.flexnav ul').toggleClass('open');
+      });
+    });
+  </script>
+    
+
+
+    </body>
+
+</html>
